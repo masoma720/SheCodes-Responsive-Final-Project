@@ -54,6 +54,14 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
 
 .btn-branding {
   background: var(--branding-color);
@@ -80,7 +88,7 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 65px;
   }
 
   h2 {
